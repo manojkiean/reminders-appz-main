@@ -1,0 +1,21 @@
+
+
+/* App level styles */
+@layer utilities {
+  .bg-expiry-today {
+    @apply bg-destructive;
+  }
+  
+  .bg-expiry-week {
+    @apply bg-amber-500;
+  }
+  
+  .bg-expiry-month {
+    @apply bg-amber-400;
+  }
+  
+  .bg-expiry-default {
+    @apply bg-emerald-500;
+  }
+}
+
